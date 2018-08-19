@@ -84,13 +84,14 @@ Features
 
 ### Comparison of main Plex Docker containers
 
-Image                        | Size                 | [Runs As]  | [PID 1 Reap] | [Slim Container] | [Plex Pass]
----------------------------- | -------------------- | ---------- | ------------ | ---------------- | -----------
-[wernight/plex-media-server] | ![][img-wernight]    | **user**   | **Safe**     | **Yes**          | **Supported**
-[linuxserver/plex]           | ![][img-linuxserver] | **user**   | **Safe**     | No               | **Supported**
-[timhaak/plex]               | ![][img-timhaak]     | root       | Unsafe       | No               | Supported<sup>[1](#footnote1)</sup>
-[needo/plex]                 | ![][img-needo]       | root       | **Safe**     | No               | Supported<sup>[1](#footnote1)</sup>
-[binhex/arch-plex]           | ![][img-binhex]      | root       | Unsafe       | No               | No
+Image                         | Size                 | [Runs As]  | [PID 1 Reap] | [Slim Container] | [Plex Pass]
+----------------------------- | -------------------- | ---------- | ------------ | ---------------- | -----------
+[spritsail/plex-media-server] | ![][img-spritsail]   | **user**   | **Safe**     | **Yes**          | **Supported**
+[wernight/plex-media-server]  | ![][img-wernight]    | **user**   | **Safe**     | No               | **Supported**
+[linuxserver/plex]            | ![][img-linuxserver] | **user**   | **Safe**     | No               | **Supported**
+[timhaak/plex]                | ![][img-timhaak]     | root       | Unsafe       | No               | Supported<sup>[1](#footnote1)</sup>
+[needo/plex]                  | ![][img-needo]       | root       | **Safe**     | No               | Supported<sup>[1](#footnote1)</sup>
+[binhex/arch-plex]            | ![][img-binhex]      | root       | Unsafe       | No               | No
 
 <a name="footnote1">1</a>: Supported by downloading via third party and not from the official Plex website.
 
@@ -101,18 +102,19 @@ Based on current state as of January 2016 (if you find any mistake please open a
 [Slim Container]: https://blog.phusion.nl/2015/01/20/baseimage-docker-fat-containers-treating-containers-vms/
 [Plex Pass]: https://support.plex.tv/hc/en-us/articles/201844613-Early-Access-Preview-Releases
 
-[wernight/plex-media-server]: https://registry.hub.docker.com/u/wernight/plex-media-server/
-[linuxserver/plex]:           https://registry.hub.docker.com/u/linuxserver/plex/
-[timhaak/plex]:               https://registry.hub.docker.com/u/timhaak/plex/
-[needo/plex]:                 https://registry.hub.docker.com/u/needo/plex/
-[binhex/arch-plex]:           https://registry.hub.docker.com/u/binhex/arch-plex/
+[spritsail/plex-media-server]: https://registry.hub.docker.com/u/spritsail/plex-media-server/
+[wernight/plex-media-server]:  https://registry.hub.docker.com/u/wernight/plex-media-server/
+[linuxserver/plex]:            https://registry.hub.docker.com/u/linuxserver/plex/
+[timhaak/plex]:                https://registry.hub.docker.com/u/timhaak/plex/
+[needo/plex]:                  https://registry.hub.docker.com/u/needo/plex/
+[binhex/arch-plex]:            https://registry.hub.docker.com/u/binhex/arch-plex/
 
+[img-spritsail]:   https://images.microbadger.com/badges/image/spritsail/plex-media-server.svg
 [img-wernight]:    https://images.microbadger.com/badges/image/wernight/plex-media-server.svg
 [img-linuxserver]: https://images.microbadger.com/badges/image/linuxserver/plex.svg
 [img-timhaak]:     https://images.microbadger.com/badges/image/timhaak/plex.svg
 [img-needo]:       https://images.microbadger.com/badges/image/needo/plex.svg
 [img-binhex]:      https://images.microbadger.com/badges/image/binhex/arch-plex.svg
-
 
 Image Variants
 --------------
